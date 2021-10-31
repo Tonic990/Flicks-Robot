@@ -75,24 +75,24 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hey You, Im Manager And Music Player Bot`
-`Crated By` [Skyzo](https://t.me/XFLSkyzo)
+`Crated By` [『TØNIC』](https://t.me/Bukan_guudlooking)
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/FlicksManagerBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Akiramanagerbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Kaneki_"),
         InlineKeyboardButton(
-            text="ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/SadRoomsInfo"
+            text="ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/AkiraSupportChannel"
         ),
     ],
     [
-        InlineKeyboardButton(text="ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Userbot_Support_Id"),
+        InlineKeyboardButton(text="ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/AkiraSupport"),
         InlineKeyboardButton(
-            text="ᴄʀᴇᴀᴛᴏʀ", url=f"https://t.me/XFLSkyzo"
+            text="ᴄʀᴇᴀᴛᴏʀ", url=f"https://t.me/Bukan_guudlooking"
         ),
     ],
     [
@@ -103,14 +103,14 @@ buttons = [
 
 HELP_STRINGS = """
 **ʜᴀɪ**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[.](https://telegra.ph/file/3c16568ffc8bb284d6dc6.jpg)
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[.](https://telegra.ph/file/674bb34bc80e2a6aaa0b6.jpg)
 """
 
-Kaneki_IMG = "https://telegra.ph/file/3c16568ffc8bb284d6dc6.jpg"
+Kaneki_IMG = "https://telegra.ph/file/674bb34bc80e2a6aaa0b6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Skyzo](t.me/XFLSkyzo) \
- Supporting isnt always financial! [All about music](t.me/userbot_support_id) \
+ You can support the project [『TØNIC』](t.me/Bukan_guudlooking) \
+ Supporting isnt always financial! [All about music](t.me/Akiramanagerbot) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -391,7 +391,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" `heyo i'm flicks`
-                 \nHere is the [Source Code](https://github.com/ridho17-ind/Flicks-Robot) .""",
+                 \nHere is the [Source Code](https://github.com/Tonic990) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
